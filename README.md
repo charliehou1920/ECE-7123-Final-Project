@@ -19,7 +19,23 @@ This Repository contains 4 files:
 
 (2) Best_Model_Loss_history.PNG: This is a screen shot which records the loss (MSE) per epoch in our best mode
 
-(3) Best_Model_MAE_history.PNG: This is a screen shot which records the MAE(Mean Absolute Error) per epoch in our best model
+(3) Best_Model_MAE_history.PNG: This is a screen shot which records the MAE (Mean Absolute Error) per epoch in our best model
 
-(4) README.md: The README file provides a generalization for this mini project
+(4) Best_Model_Correlation.PNG: This is a screen shot which records Predicted Price vs Real Price
+
+(5) README.md: The README file provides a generalization for this mini project
+
+------------------------------------------------------------------------------------------------------
+
+## Final Model Architecture / Parameters / Hyper-parameters
+
+| Final model parameters |                   Values for the parameter                   |
+| :--------------------: | :----------------------------------------------------------: |
+|       Batch Size       |                              64                              |
+|         Epoch          |                              50                              |
+|    Layer Structure     | Two stacked GRU layers with 32 units, one Dropout layer with 0.5 rate, and one Dense layer |
+|     Input Features     |                  Closed price and Momentum                   |
+|     Loss Function      |                      Mean Squared Error                      |
+|       Optimizer        |                Adam with learning rate 0.0003                |
+|       Time step        |                              25                              |
 
