@@ -13,5 +13,13 @@
 
 ## A Guide for this repository
 
+This Repository contains 4 files:
 
+(1) Final_Project.ipynb: This file contains everything for this final project. We recommend you to run it on Google Colab.
+
+(2) Best_Model_Loss_history.PNG: This is a screen shot which records the loss (MSE) per epoch in our best mode
+
+(3) Best_Model_MAE_history.PNG: This is a screen shot which records the MAE(Mean Absolute Error) per epoch in our best model
+
+(4) README.md: The README file provides a generalization for this mini project
 
