@@ -37,5 +37,5 @@ This Repository contains 4 files:
 |     Input Features     |                  Closed price and Momentum                   |
 |     Loss Function      |                      Mean Squared Error                      |
 |       Optimizer        |                Adam with learning rate 0.0003                |
-|       Time step        |                              25                              |
+|       Time step        |                              50                              |
 
