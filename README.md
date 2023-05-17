@@ -39,3 +39,17 @@ This Repository contains 4 files:
 |       Optimizer        |                Adam with learning rate 0.0003                |
 |       Time step        |                              50                              |
 
+-----------------------------------------------------------------------------------
+
+## Performance of the Best Model
+
+- Mean Absolute Percentage Error: 1.232%
+- Mean Absolute Error: 4.479
+- Correlation between true and prediction: 0.997
+
+
+
+
+
+
+
